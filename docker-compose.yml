@@ -1,0 +1,9 @@
+version: '3.8'
+service:
+web:
+image: php:8.0-apache
+container_name: phptes
+volumes:
+- ./app:/home/rifqy/app/ 
+ports:
+- 8000:80
